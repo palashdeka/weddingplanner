@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+     color: blueviolet; 
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+.nav-link{
+    color: aliceblue;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: paleturquoise;
+}
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.hero-image{
+    max-width: 100%;
+    height: auto;
+    width: 40rem;
+    border-radius: 2rem;
+}
+.custom-shape-divider-bottom-1691690699 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1691690699 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 53px;
+}
+
+.custom-shape-divider-bottom-1691690699 .shape-fill {
+    fill: #FFFFFF;
+}
+.service-section{
+ padding:6rem 0 3rem 0 ;   
+}
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: blueviolet;
+    color: bisque;
+}
+.card-box:hover{
+    box-shadow: black;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.9),rgba(22,22,22,0.9)),url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+     background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    padding: 6rem 0;
+   }
+   .more-info-section .img-section{
+    position: relative;
+   }
+   .more-info-section .img-section img{
+    position: absolute;
+    width: 70%;
+    left: 0;
+   }
+   .Business-section{
+    padding-top: 3rem;
+   }
+   .common-section{
+    padding: 0 0 9rem 0;
+   }
+   .carousel .card{
+    background-color:#262631 ;
+    color: aquamarine;
+    transition: all 0.3s linear;
+   }
+   .carousel-inner .card p{
+    color: aquamarine;
+   }
+   .carousel-inner .card:hover{
+    background: #262631;
+    color: rgb(16, 21, 19);
+   }
+   .carousel-inner .card:hover p{
+    background: #262631;
+    color: rgb(16, 21, 19);
+   }
+   .fa-star{
+    color: blueviolet;
+   }
+   .carousel-indicators{
+    bottom: -20%;
+   }
+   .carousel-indicators[data-bs-target]{
+width: .7rem;
+height: .7rem;
+background-color: #1089ff;
+   }
